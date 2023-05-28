@@ -12,7 +12,7 @@ data class ShoppingItem(
     var price :Float,
     var imgUrl:String,
     @PrimaryKey(autoGenerate = true)
-    val id:Int
+    val id:Int? =null
 )
 //@Entity(tableName = "shopping_items")
 //data class ShoppingItem(

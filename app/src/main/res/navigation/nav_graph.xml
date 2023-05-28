@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/addShoppingFragment">
+
+    <fragment
+        android:id="@+id/addShoppingFragment"
+        android:name="com.androiddevs.shoppinglisttestingyt.ui.AddShoppingFragment"
+        android:label="AddShoppingFragment" />
+    <fragment
+        android:id="@+id/imagePickFragment"
+        android:name="com.androiddevs.shoppinglisttestingyt.ui.ImagePickFragment"
+        android:label="ImagePickFragment" />
+    <fragment
+        android:id="@+id/shoppingFragment"
+        android:name="com.androiddevs.shoppinglisttestingyt.ui.ShoppingFragment"
+        android:label="ShoppingFragment" />
+</navigation>
