@@ -13,7 +13,7 @@ import com.androiddevs.shoppinglisttestingyt.other.Resource
 import com.androiddevs.shoppinglisttestingyt.repository.ShoppingRepository
 import kotlinx.coroutines.launch
 
-class ShoppingViewModel  @ViewModelInject constructor(
+class ShoppingViewModel  @ViewModelInject   constructor(
     val shoppingRepository: ShoppingRepository
 ) :ViewModel(){
 
